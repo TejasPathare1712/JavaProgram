@@ -16,6 +16,11 @@ class SumOfArray2{
 			System.out.print(arr[i]+" ");
 		}
 		System.out.println();
+		for(int i=0;i<10;i++){
+		    sum = sum + arr[i];
+		    //System.out.println(sum);
+		}
+		System.out.println("Sum of All Array is = "+sum);
 	
 	}
 
